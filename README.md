@@ -26,16 +26,16 @@ Run a Telegram messaging bot on Cloudflare Worker. 🚀
 ربات پیام رسان تلگرام را در Cloudflare Worker اجرا کنید. 🚀
 
 #### آموزش اجرا:
-۱. توکن جدید ربات خود را از @BotFather دریافت کنید: [BotFather](https://t.me/BotFather) 🤖
-۲. در Cloudflare Workers ثبت نام کنید: [Cloudflare Workers](https://dash.cloudflare.com/sign-up) ☁️
-۳. در داشبورد Cloudflare، به قسمت "Workers & Pages" بروید و سپس روی "Create" کلیک کنید.
-۴. روی "Create Worker" کلیک کنید تا ورکر جدیدی ایجاد شود.
-۵. یک نام انتخاب کنید و روی "Deploy" کلیک کنید تا ورکر مستقر شود.
-۶. روی "Edit code" کلیک کنید تا کد منبع ورکر جدید خود را تغییر دهید.
-۷. کد موجود در فایل bot.js را کپی کرده و در ویرایشگر وارد کنید.
-۸. متغیر TOKEN در کد را با توکن خود از @BotFather جایگزین کنید.
-۹. متغیر ADMIN در کد را با شناسه چت خود از @chatIDrobot جایگزین کنید.
-۱۰. روی "Deploy" کلیک کنید.
-۱۱. در پنل وسط، /registerWebhook را به انتهای URL اضافه کنید. به عنوان مثال: https://name.username.workers.dev/registerWebhook.
-۱۲. روی "Send" کلیک کنید. در پنل سمت راست، باید "Ok" را ببینید. اگر "401 Unauthorized" ظاهر شد، ممکن است توکن ربات را اشتباه وارد کرده باشید.
-۱۳. عالی، کار تمام شد! حالا می‌توانید از ربات پیام‌رسان استفاده کنید. 🎉
+1. توکن جدید ربات خود را از @BotFather دریافت کنید: [BotFather](https://t.me/BotFather) 🤖
+2. در Cloudflare Workers ثبت نام کنید: [Cloudflare Workers](https://dash.cloudflare.com/sign-up) ☁️
+3. در داشبورد Cloudflare، به قسمت **"Workers & Pages"** بروید و سپس روی "Create" کلیک کنید.
+4. روی **"Create Worker"** کلیک کنید تا ورکر جدیدی ایجاد شود.
+5. یک نام انتخاب کنید و روی **"Deploy"** کلیک کنید تا ورکر مستقر شود.
+6. روی **"Edit code"** کلیک کنید تا کد منبع ورکر جدید خود را تغییر دهید.
+7. کد موجود در فایل bot.js را کپی کرده و در ویرایشگر وارد کنید.
+8. متغیر `TOKEN` در کد را با توکن خود از @BotFather جایگزین کنید.
+9. متغیر `ADMIN` در کد را با شناسه چت خود از @chatIDrobot جایگزین کنید.
+10. روی **"Deploy"** کلیک کنید.
+11. در پنل وسط، `/registerWebhook` را به انتهای URL اضافه کنید. به عنوان مثال: `https://name.username.workers.dev/registerWebhook`.
+12. روی **"Send"** کلیک کنید. در پنل سمت راست، باید "Ok" را ببینید. اگر "401 Unauthorized" ظاهر شد، ممکن است توکن ربات را اشتباه وارد کرده باشید.
+13. عالی، کار تمام شد! حالا می‌توانید از ربات پیام‌رسان استفاده کنید. 🎉
