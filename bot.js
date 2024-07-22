@@ -137,7 +137,7 @@ async function onMessage(message) {
         }));
 
         const sendMessageData = await sendMessageResponse.json();
-        if (sendMessageData.description === "Forbidden: bot was blocked by the user") {
+        if (sendMessageData.ok) {
           await setMessageReaction(message, '👎'); // ری‌اکشن لایک برای پیام ارسال شده
         } else {
           await setMessageReaction(message, '👍'); // ری‌اکشن دیسلایک برای پیام ارسال نشده
@@ -162,7 +162,7 @@ async function onMessage(message) {
             })
           }));
           const response23 = await id223.json();
-          if (response23.description === "Forbidden: bot was blocked by the user") {
+          if (response23.ok) {
             await setMessageReaction(message, '👎'); // ری‌اکشن دیسلایک برای پیام ارسال نشده
             return await fetch(apiUrl('sendMessage', {
               chat_id: message.chat.id,
